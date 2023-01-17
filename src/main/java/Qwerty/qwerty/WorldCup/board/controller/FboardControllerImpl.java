@@ -34,6 +34,7 @@ import Qwerty.qwerty.WorldCup.member.vo.MemberVO;
 
 @Controller("fboardController")
 public class FboardControllerImpl implements FboardController{
+	//이미지 저장 경로 설정
 	private static final String ART_IMAGE_REPO="C:\\sh_park\\upload_images";
 
 	@Autowired
