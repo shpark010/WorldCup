@@ -34,6 +34,7 @@ import Qwerty.qwerty.WorldCup.shopping.Service.ShoppingService;
 
 @Controller("qBoardController")
 public class QboardControllerImpl implements QboardController {
+	//이미지 업로드 경로 설정
 	private static final String ART_IMAGE_REPO = "C:\\sh_park\\upload_images2";
 	@Autowired
 	private QboardService qboardService;
