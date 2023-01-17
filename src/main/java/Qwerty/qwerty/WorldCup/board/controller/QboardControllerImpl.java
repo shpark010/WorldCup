@@ -45,7 +45,7 @@ public class QboardControllerImpl implements QboardController {
 	@Autowired
 	private ShoppingService shoppingService;
 	
-	//��ü �Խñ� ����
+	//
 	@Override
 	@RequestMapping(value = "/qBoard/listArticles.do", method = {RequestMethod.GET, RequestMethod.POST})
 	public ModelAndView listArticles(HttpServletRequest request, HttpServletResponse response) throws Exception {
